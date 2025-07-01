@@ -1,0 +1,12 @@
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+/storybook-static
+documentation.json
+
+# dependencies
+/node_modules

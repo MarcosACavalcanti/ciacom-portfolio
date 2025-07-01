@@ -1,0 +1,20 @@
+.header-div {
+  display: flex;
+  background-color: #202124;
+  justify-content: space-between;
+  border: solid 1px rgba(255, 255, 255, 0.30);
+  margin: 50px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.header-button {
+  border: none;
+  background-color:#20212400;
+  color: rgba(255, 255, 255, 0.692);
+}
+
+.header-button:hover{
+  color: rgb(255, 255, 255);
+  cursor:pointer;
+}

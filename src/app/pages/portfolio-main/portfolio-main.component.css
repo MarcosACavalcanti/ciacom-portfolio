@@ -1,0 +1,137 @@
+/* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+@keyframes floating {
+  0% {margin-right: 0px;}
+  50% { margin-right: 8px;}
+  100% { margin-right: 0px;}
+}
+
+
+
+@keyframes name-appear {
+    0% { transform: scale(1.5); opacity: 0.2; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.first-name {
+  font-family: satoshi; 
+  /* opacity: 0;
+  font-size: 60px;
+  animation: name-appear 1s forwards; */
+}
+
+
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #0b0b0b;
+  height: -webkit-fill-available;
+  color: white;
+}
+
+
+
+.text-div {
+  border: solid 1px white;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  height: fit-content;
+}
+
+.text-description-div {
+  color: rgba(255, 255, 255, 0.60);
+  /* opacity: 0;
+  animation: name-appear 1s forwards;
+  animation-delay: 0.3s; */
+}
+
+.icons-box-div {
+  border: solid 1px white;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.whole-div {
+  margin: 20px;
+  width: fit-content;
+  background-color: #111111;
+  border-radius: 20px;
+  padding: 7px;
+  border-top: solid 2px #222222;
+  display: flex;
+  flex-direction: row;
+}
+
+.button-div {
+  background: #5c5c5c;
+  background: linear-gradient(
+    181deg,
+    rgba(92, 92, 92, 1) 0%,
+    rgba(46, 46, 46, 1) 48%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border: 0px;
+  border-radius: 40px;
+  color: white;
+  padding: 20px;
+  transition: 0.3s;
+  font-size: 16px;
+  cursor:pointer;
+  /* opacity: 0;
+  animation: name-appear 1s forwards;
+  animation-delay: 0.5s; */
+}
+
+.buttons-div {
+  margin: 10px;
+}
+
+
+.button-div:hover {
+  opacity: 0.6;
+}
+
+
+
+.button-div-2 {
+  background: #fefefe;
+  background: linear-gradient(
+    181deg,
+    rgba(254, 254, 254, 1) 0%,
+    rgba(199, 199, 199, 1) 48%,
+    rgba(161, 161, 161, 1) 100%
+  );
+  border: 0px;
+  border-radius: 40px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  transition: 0.3s;
+  font-size: 16px;
+  cursor:pointer;
+  /* opacity: 0;
+  animation: name-appear 1s forwards;
+  animation-delay: 0.5s; */
+}
+
+.button-div-2:hover {
+  opacity: 0.7;
+}
+
+.main-content-div {
+  display: flex; flex-direction: row; justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .main-content-div  {
+    display: flex; flex-direction: column; justify-content: center;
+  }
+}

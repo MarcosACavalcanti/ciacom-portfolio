@@ -21,6 +21,7 @@ import { BrazilFlagComponent } from './flags/brazil-flag/brazil-flag.component';
 import { UsaFlagComponent } from './flags/usa-flag/usa-flag.component';
 import { Observable, of } from 'rxjs';
 import { LanguagesFactory } from './languages';
+import { CountryFlagComponent } from './country-flag/country-flag.component';
 
 export function HttpLoaderFactory(http: HttpClient){
   
@@ -50,7 +51,8 @@ export class GetTranslateDefault implements TranslateLoader{
     PageAboutMeComponent,
     PageContactsComponent,
     PageAboutMeComponent,
-    PageProjectsComponent
+    PageProjectsComponent,
+    CountryFlagComponent
   ],
   imports: [
     BrowserModule,

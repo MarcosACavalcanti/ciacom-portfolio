@@ -1,4 +1,4 @@
 TASK 1 - MELHORAR ANIMACAO DO TEXTO E DOS BOTOES
-TASK 2 -CREATE A COMPONENT FLAG THAT HANDLE ALL THE FLAGS
+TASK 2 -CREATE A COMPONENT FLAG THAT HANDLE ALL THE FLAGS (need to be able to send a input with the country name and set a custon size)
 TASK 3 - WORK IN LOAD PAGE ISSUE (fixed using objects instead of loading json files using httpClient)
 TASK 4 - Fix the animations (Fixed they were commented during the debug of the loading page issue)

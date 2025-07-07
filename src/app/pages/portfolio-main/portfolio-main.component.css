@@ -19,9 +19,9 @@
 
 .first-name {
   font-family: satoshi; 
-  /* opacity: 0;
+  opacity: 0;
   font-size: 60px;
-  animation: name-appear 1s forwards; */
+  animation: name-appear 1s forwards;
 }
 
 
@@ -46,9 +46,9 @@
 
 .text-description-div {
   color: rgba(255, 255, 255, 0.60);
-  /* opacity: 0;
+  opacity: 0;
   animation: name-appear 1s forwards;
-  animation-delay: 0.3s; */
+  animation-delay: 0.3s;
 }
 
 .icons-box-div {
@@ -85,9 +85,9 @@
   transition: 0.3s;
   font-size: 16px;
   cursor:pointer;
-  /* opacity: 0;
+  opacity: 0;
   animation: name-appear 1s forwards;
-  animation-delay: 0.5s; */
+  animation-delay: 0.5s;
 }
 
 .buttons-div {
@@ -116,9 +116,9 @@
   transition: 0.3s;
   font-size: 16px;
   cursor:pointer;
-  /* opacity: 0;
+  opacity: 0;
   animation: name-appear 1s forwards;
-  animation-delay: 0.5s; */
+  animation-delay: 0.5s;
 }
 
 .button-div-2:hover {

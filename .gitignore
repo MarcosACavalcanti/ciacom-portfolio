@@ -10,3 +10,6 @@ documentation.json
 
 # dependencies
 /node_modules
+
+#misc
+/.angular/cache

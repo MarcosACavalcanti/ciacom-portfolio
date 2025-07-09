@@ -1,17 +1,14 @@
 <div class="header-div">
-
-    <button class="header-button" (click)="goTo('home')">MarcosCavalcanti(LOGO)</button>
-    <button class="header-button" (click)="goTo('/about')">{{ 'header_buttons.about' | translate }}</button>
-    <button class="header-button" (click)="goTo('/projects')">{{ 'header_buttons.projects' | translate }}</button>
-    <button class="header-button" (click)="goTo('/contacts')">{{ 'header_buttons.contacts' | translate }}</button>
-    <div style="color:white">
-        Language:
-        <div>
-            
-            <Button (click)="changeLanguage('portuguese')" style="    border: none;
-    background: transparent;"><app-brazil-flag></app-brazil-flag></Button>
-            <Button (click)="changeLanguage('english')" style="    border: none;
-    background: transparent;"><app-usa-flag></app-usa-flag></Button>
-          </div> TASK 2 -CREATE A COMPONENT FLAG THAT HANDLE ALL THE FLAGS (need to be able to send a input with the country name and set a custon size)
+  <button class="header-button" (click)="goTo('home')">MarcosCavalcanti(LOGO)</button>
+  <button class="header-button" (click)="goTo('/about')">{{ "header_buttons.about" | translate }}</button>
+  <button class="header-button" (click)="goTo('/projects')">{{ "header_buttons.projects" | translate }}</button>
+  <button class="header-button" (click)="goTo('/contacts')">{{ "header_buttons.contacts" | translate }}</button>
+  <div style="color: white">
+    Language:
+    <div>
+      <Button (click)="changeLanguage('portuguese')" style="border: none; background: transparent"><app-country-flag></app-country-flag></Button>
+      <Button (click)="changeLanguage('english')" style="border: none; background: transparent"><app-usa-flag></app-usa-flag></Button>
     </div>
+    TASK 2 -CREATE A COMPONENT FLAG THAT HANDLE ALL THE FLAGS (need to be able to send a input with the country name and set a custon size)
+  </div>
 </div>

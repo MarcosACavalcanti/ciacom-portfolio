@@ -22,6 +22,7 @@ import { UsaFlagComponent } from './flags/usa-flag/usa-flag.component';
 import { Observable, of } from 'rxjs';
 import { LanguagesFactory } from './languages';
 import { CountryFlagComponent } from './country-flag/country-flag.component';
+import { SafePipe } from './safe.pipe';
 
 export function HttpLoaderFactory(http: HttpClient){
   
@@ -52,7 +53,8 @@ export class GetTranslateDefault implements TranslateLoader{
     PageContactsComponent,
     PageAboutMeComponent,
     PageProjectsComponent,
-    CountryFlagComponent
+    CountryFlagComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

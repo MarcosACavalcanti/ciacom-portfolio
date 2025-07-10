@@ -17,8 +17,6 @@ import { PageAboutMeComponent } from './pages/page-about-me/page-about-me.compon
 import { PageContactsComponent } from './pages/page-contacts/page-contacts.component';
 import { PageProjectsComponent } from './pages/page-projects/page-projects.component';
 import { PortfolioMainComponent } from './pages/portfolio-main/portfolio-main.component';
-import { BrazilFlagComponent } from './flags/brazil-flag/brazil-flag.component';
-import { UsaFlagComponent } from './flags/usa-flag/usa-flag.component';
 import { Observable, of } from 'rxjs';
 import { LanguagesFactory } from './languages';
 import { CountryFlagComponent } from './country-flag/country-flag.component';
@@ -41,8 +39,6 @@ export class GetTranslateDefault implements TranslateLoader{
     AppComponent,
     PortfolioHeaderComponent,
     PortfolioMainComponent,
-    BrazilFlagComponent,
-    UsaFlagComponent,
     AngularSvgComponent,
     NodejsSvgComponent,
     MongoDbSvgComponent,

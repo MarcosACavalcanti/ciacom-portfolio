@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 7410 3900">
+import { Flag, FlagSize } from "../FlagFactory";
+
+export class UnitedStates implements Flag {
+    getSvg(size: FlagSize){
+        return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${size.width}" height="${size.height}" viewBox="0 0 7410 3900">
     <path d="M0,0h7410v3900H0" fill="#b31942"/>
     <path d="M0,450H7410m0,600H0m0,600H7410m0,600H0m0,600H7410m0,600H0" stroke="#FFF" stroke-width="300"/>
     <path d="M0,0h2964v2100H0" fill="#0a3161"/>
@@ -22,4 +26,6 @@
     <use xlink:href="#s9" x="1976"/>
     <use xlink:href="#s5" x="2470"/>
     </g>
-    </svg>
+    </svg>`;
+    }
+}

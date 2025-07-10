@@ -1,8 +1,12 @@
-<svg
+import { Flag, FlagSize } from "../FlagFactory";
+
+export class Brazil implements Flag {
+  getSvg(size: FlagSize) {
+    return `<svg
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="25"
-  height="25"
+  width="${size.width}"
+  height="${size.height}"
   viewBox="-2100 -1470 4200 2940"
 >
   <defs>
@@ -120,3 +124,6 @@
   <use x="-295" y="390" xlink:href="#a" />
   <use y="575" xlink:href="#i" />
 </svg>
+`;
+  }
+}

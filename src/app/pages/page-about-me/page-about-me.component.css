@@ -1,0 +1,26 @@
+@keyframes name-appear {
+  from {
+    transform: scale(1.5);
+    opacity: 0.2;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.first-name {
+  color: white;
+  font-family: satoshi;
+  opacity: 0;
+  font-size: 40px;
+  animation: name-appear 1s forwards;
+}
+
+.whole-div {
+  background-color: #111111;
+  border-radius: 20px;
+  padding: 7px;
+  border-top: solid 2px #222222;
+  color: white;
+}

@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { FlagFactory, FlagSize } from './FlagFactory';
 
 @Component({
-  selector: 'app-country-flag',
+  selector: 'flag',
   template: `<div [innerHtml]='svgContent | safeHtml'></div>`,
   styleUrls: ['./country-flag.component.css']
 })
@@ -10,7 +10,7 @@ export class CountryFlagComponent implements OnInit {
   svgContent: string = "";
 
   @Input()
-  svgText: string = "";
+  country: string = "";
 
   @Input()
   flagSize: FlagSize = {
@@ -26,7 +26,7 @@ export class CountryFlagComponent implements OnInit {
 
 
   loadSvg(){
-      this.svgContent = FlagFactory.flag(this.svgText).getSvg(this.flagSize);
+      this.svgContent = FlagFactory.flag(this.country).getSvg(this.flagSize);
   }
 
 

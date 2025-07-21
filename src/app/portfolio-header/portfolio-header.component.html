@@ -6,8 +6,8 @@
   <div style="color: white">
     Language:
     <div>
-      <Button (click)="changeLanguage('portuguese')" style="border: none; background: transparent"><app-country-flag [svgText]="'BR'"/></Button>
-      <Button (click)="changeLanguage('english')" style="border: none; background: transparent"><app-country-flag [svgText]="'US'"/></Button>
+      <Button (click)="changeLanguage('portuguese')" style="border: none; background: transparent"><flag [country]="'BR'"/></Button>
+      <Button (click)="changeLanguage('english')" style="border: none; background: transparent"><flag [country]="'US'"/></Button>
     </div>
   </div>
 </div>

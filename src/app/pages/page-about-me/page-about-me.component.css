@@ -24,3 +24,8 @@
   border-top: solid 2px #222222;
   color: white;
 }
+
+.mi-photo {
+  height: 400px;
+  border-radius: 10px;
+}

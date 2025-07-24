@@ -29,3 +29,12 @@
   height: 400px;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .main-content-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+

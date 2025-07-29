@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CountryFlagComponent } from './country-flag.component';
+import { SvgIconComponent } from './svg-icon.component';
 
-describe('CountryFlagComponent', () => {
-  let component: CountryFlagComponent;
-  let fixture: ComponentFixture<CountryFlagComponent>;
+describe('SvgIconComponent', () => {
+  let component: SvgIconComponent;
+  let fixture: ComponentFixture<SvgIconComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CountryFlagComponent ]
+      declarations: [ SvgIconComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CountryFlagComponent);
+    fixture = TestBed.createComponent(SvgIconComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

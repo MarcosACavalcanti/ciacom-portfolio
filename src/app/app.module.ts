@@ -20,8 +20,8 @@ import { PageProjectsComponent } from "./pages/page-projects/page-projects.compo
 import { PortfolioMainComponent } from "./pages/portfolio-main/portfolio-main.component";
 import { Observable, of } from "rxjs";
 import { LanguagesFactory } from "./languages";
-import { CountryFlagComponent } from "./country-flag/country-flag.component";
 import { SafePipe } from "./safe.pipe";
+import { SvgIconComponent } from "./svg-icon/svg-icon.component";
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
@@ -48,8 +48,8 @@ export class GetTranslateDefault implements TranslateLoader {
     PageContactsComponent,
     PageAboutMeComponent,
     PageProjectsComponent,
-    CountryFlagComponent,
     SafePipe,
+    SvgIconComponent,
   ],
   imports: [
     BrowserModule,

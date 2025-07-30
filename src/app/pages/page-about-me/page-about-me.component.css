@@ -89,6 +89,38 @@
   animation: fadeSlideUp 1s ease;
   animation-delay: 0.5s;
   animation-fill-mode: both;
+  max-width: 400px;  
+}
+
+.tech-skills-box-div{
+  display: flex;
+  flex-wrap: wrap;       
+  max-width: 400px;  
+  height: fit-content;  
+  gap: 8px;
+}
+
+.tech-skills-div {
+  background-color: #000000;
+  border-radius: 8px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  height: fit-content;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #A1A1A1;
+}
+
+.tech-skill-divider {
+  border: none;
+  border-top: 2px solid #333;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.description-details {
+  color: #A1A1A1;
+  padding: 10px;
 }
 
 @media (max-width: 768px) {

@@ -2,4 +2,5 @@
 (DONE) TASK 2 -CREATE A COMPONENT FLAG THAT HANDLE ALL THE FLAGS (need to be able to send a input with the country name and set a custon size)
 (DONE) TASK 3 - WORK IN LOAD PAGE ISSUE (fixed using objects instead of loading json files using httpClient)
 (DONE) TASK 4 - Fix the animations (Fixed they were commented during the debug of the loading page issue)
-TASK 5 - Work in "About me" page
+TASK 5 - Work in "About me" page / Make the page mobile friendly and adjust the experiences
+TASK 6 - Think about the factory for Svg Icons and Flags

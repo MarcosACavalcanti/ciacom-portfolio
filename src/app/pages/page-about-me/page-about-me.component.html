@@ -30,14 +30,13 @@
     </div>
     <hr class="tech-skill-divider" />
     <div class="tech-skills-box-div">
-      <div class="tech-skills-div">NodeJS</div>
-      <div class="tech-skills-div">Angular</div>
-      <div class="tech-skills-div">Express</div>
-      <div class="tech-skills-div">NestJS</div>
-      <div class="tech-skills-div">NX</div>
-      <div class="tech-skills-div">MongoDB</div>
+      <ul class="tech-skills-list">
+        <li class="tech-skills-div" *ngFor="let skill of techSkills">{{ skill }}</li>
+      </ul>
     </div>
     <hr class="tech-skill-divider" />
-    test
+    <ul class="experience-list">
+      <li class="experience-item" *ngFor="let exp of experiences">{{ exp }}</li>
+    </ul>
   </div>
 </div>

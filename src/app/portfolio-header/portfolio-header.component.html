@@ -4,10 +4,9 @@
   <button class="header-button" (click)="goTo('/projects')">{{ "header_buttons.projects" | translate }}</button>
   <button class="header-button" (click)="goTo('/contacts')">{{ "header_buttons.contacts" | translate }}</button>
   <div style="color: white">
-    Language:
     <div>
-      <Button (click)="changeLanguage('portuguese')" style="border: none; background: transparent"><svg-icon [icon]="'brazilFlag'"/></Button>
-      <Button (click)="changeLanguage('english')" style="border: none; background: transparent"><svg-icon [icon]="'usFlag'"/></Button>
+      <Button (click)="changeLanguage('portuguese')" class="flag-button"><svg-icon [icon]="'brazilFlag'"/></Button>
+      <Button (click)="changeLanguage('english')" class="flag-button"><svg-icon [icon]="'usFlag'"/></Button>
     </div>
   </div>
 </div>

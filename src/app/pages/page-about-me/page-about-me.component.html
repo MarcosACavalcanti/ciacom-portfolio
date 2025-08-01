@@ -1,13 +1,11 @@
-<p style="color: white">page-about-me works!TASK 5 - Work in "About me" page and make it mult languages</p>
-<!-- Work in mobile version -->
 <div class="center-content">
   <h1 class="first-name">Marcos Cavalcanti, Software Engineer</h1>
 </div>
 <div class="row-space">
   <div class="whole-div">
     <div><img class="mi-photo" src="assets/images/miimage.png" /></div>
-    <div class="about-title">Hello I am Marcos Cavalcanti</div>
-    <div class="about-location">Software Developer Based in Spain</div>
+    <div class="about-title">{{ 'about_page.title' | translate }}</div>
+    <div class="about-location">{{ 'about_page.location' | translate }}</div>
     <div class="social-row">
       <a href="https://www.instagram.com/pa_gode/" target="_blank" class="social-link">
         <div>
@@ -24,9 +22,7 @@
   <div class="description-box">
     TASK 5 - Work in "About me" page / Make the page mobile friendly and adjust the experiences
     <div class="description-details">
-      As a software engineer for over seven years, Marcos Cavalcanti has extensive experience finding solutions for complex engineering problems and
-      helping the team develop the product. His proficiency as a Full-Stack Developer complements his skills in architecting the system and planning
-      the IT architecture.
+      {{ 'about_page.descriptions.details' | translate }}
     </div>
     <hr class="tech-skill-divider" />
     <div class="tech-skills-box-div">

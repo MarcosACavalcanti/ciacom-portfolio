@@ -31,6 +31,24 @@
   }
 }
 
+.float-animation {
+  animation: floatY 2.5s ease-in-out infinite;
+}
+
+.float-delay-after {
+  animation-delay: -0.3s;
+}
+
+.float-delay-before {
+  animation-delay: 0.3s;
+}
+
+@keyframes floatY {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+  100% { transform: translateY(0); }
+}
+
 .first-name {
   font-family: satoshi;
   opacity: 0;
@@ -58,11 +76,8 @@
 }
 
 .icons-box-div {
-  border: solid 1px white;
-  margin: 20px;
-  padding: 40px;
   border-radius: 30px;
-  background-color: white;
+  display: flex;
 }
 
 .whole-div {

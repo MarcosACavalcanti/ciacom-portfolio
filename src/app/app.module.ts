@@ -6,11 +6,6 @@ import { MatIconModule } from "@angular/material/icon";
 import { AppComponent } from "./app.component";
 import { PortfolioHeaderComponent } from "./portfolio-header/portfolio-header.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { AngularSvgComponent } from "./src-svg/angular-svg/angular-svg.component";
-import { MongoDbSvgComponent } from "./src-svg/mongo-db-svg/mongo-db-svg.component";
-import { NodejsSvgComponent } from "./src-svg/nodejs-svg/nodejs-svg.component";
-import { AnimationFloatingDirective } from "./animation-floating.directive";
-import { AnimationTestComponent } from "./animation-test/animation-test.component";
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
@@ -38,12 +33,6 @@ export class GetTranslateDefault implements TranslateLoader {
     AppComponent,
     PortfolioHeaderComponent,
     PortfolioMainComponent,
-    AngularSvgComponent,
-    NodejsSvgComponent,
-    MongoDbSvgComponent,
-    NodejsSvgComponent,
-    AnimationFloatingDirective,
-    AnimationTestComponent,
     PageAboutMeComponent,
     PageContactsComponent,
     PageAboutMeComponent,

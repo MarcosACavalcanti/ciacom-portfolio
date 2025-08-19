@@ -1,12 +1,16 @@
-<div class="header-div">
-  <button class="header-button" (click)="goTo('home')"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon></button>
-  <button class="header-button" (click)="goTo('/about')">{{ "header_buttons.about" | translate }}</button>
-  <button class="header-button" (click)="goTo('/projects')">{{ "header_buttons.projects" | translate }}</button>
-  <button class="header-button" (click)="goTo('/contacts')">{{ "header_buttons.contacts" | translate }}</button>
-  <div style="color: white">
-    <div>
-      <Button (click)="changeLanguage('portuguese')" class="flag-button"><svg-icon [icon]="'brazilFlag'"/></Button>
-      <Button (click)="changeLanguage('english')" class="flag-button"><svg-icon [icon]="'usFlag'"/></Button>
+<div style="display: flex; justify-content: center">
+  <div class="header-div">
+    <button class="header-button" (click)="goTo('home')">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
+    </button>
+    <button class="header-button" (click)="goTo('/about')">{{ "header_buttons.about" | translate }}</button>
+    <button class="header-button" (click)="goTo('/projects')">{{ "header_buttons.projects" | translate }}</button>
+    <button class="header-button" (click)="goTo('/contacts')">{{ "header_buttons.contacts" | translate }}</button>
+    <div style="color: white">
+      <div>
+        <Button (click)="changeLanguage('portuguese')" class="flag-button"><svg-icon [icon]="'brazilFlag'" /></Button>
+        <Button (click)="changeLanguage('english')" class="flag-button"><svg-icon [icon]="'usFlag'" /></Button>
+      </div>
     </div>
   </div>
 </div>

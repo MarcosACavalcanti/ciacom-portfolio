@@ -1,34 +1,18 @@
-/* The animation code */
-@keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
-}
-
-@keyframes floating {
-  0% {
-    margin-right: 0px;
-  }
-  50% {
-    margin-right: 8px;
-  }
-  100% {
-    margin-right: 0px;
-  }
-}
-
 @keyframes name-appear {
   from {
-    transform: scale(1.5);
+    transform: translateY(40px);
     opacity: 0.2;
   }
   to {
     transform: scale(1);
     opacity: 1;
   }
+} 
+
+@keyframes floatY {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+  100% { transform: translateY(0); }
 }
 
 .float-animation {
@@ -43,11 +27,6 @@
   animation-delay: 0.3s;
 }
 
-@keyframes floatY {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-18px); }
-  100% { transform: translateY(0); }
-}
 
 .first-name {
   font-family: satoshi;
@@ -61,6 +40,7 @@
   flex-direction: column;
   height: -webkit-fill-available;
   color: white;
+  margin-top: 100px;
 }
 
 .text-div {

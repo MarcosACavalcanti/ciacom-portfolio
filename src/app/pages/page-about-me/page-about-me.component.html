@@ -1,42 +1,44 @@
-<div class="center-content">
-  <h1 class="first-name">Software Engineer</h1>
-</div>
-<div class="row-space">
-  <div class="whole-div">
-    <div><img class="mi-photo" src="assets/images/miimage.png" /></div>
-    <div class="about-title">{{ 'about_page.title' | translate }}</div>
-    <div class="about-location">{{ 'about_page.location' | translate }}</div>
-    <div class="social-row">
-      <a href="https://www.instagram.com/pa_gode/" target="_blank" class="social-link">
-        <div>
-          <svg-icon icon="instagram" [width]="30" [height]="30"></svg-icon>
-        </div>
-      </a>
-      <a href="https://www.linkedin.com/in/marcos-de-albuquerque-cavalcanti-703398bb/" target="_blank" class="social-link">
-        <div>
-          <svg-icon icon="linkedin" [width]="30" [height]="30"></svg-icon>
-        </div>
-      </a>
-      <a href="https://github.com/MarcosACavalcanti" target="_blank" class="social-link">
-        <div>
-            <svg-icon icon="gitHub" [width]="30" [height]="30"></svg-icon>
-        </div>
-    </a>
-    </div>
+<div style="margin-top: 100px;">
+  <div class="center-content">
+    <h1 class="first-name">Software Engineer</h1>
   </div>
-  <div class="description-box">
-    <div class="description-details">
-      {{ 'about_page.descriptions.details' | translate }}
+  <div class="row-space">
+    <div class="whole-div">
+      <div><img class="mi-photo" src="assets/images/miimage.png" /></div>
+      <div class="about-title">{{ "about_page.title" | translate }}</div>
+      <div class="about-location">{{ "about_page.location" | translate }}</div>
+      <div class="social-row">
+        <a href="https://www.instagram.com/pa_gode/" target="_blank" class="social-link">
+          <div>
+            <svg-icon icon="instagram" [width]="30" [height]="30"></svg-icon>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/marcos-de-albuquerque-cavalcanti-703398bb/" target="_blank" class="social-link">
+          <div>
+            <svg-icon icon="linkedin" [width]="30" [height]="30"></svg-icon>
+          </div>
+        </a>
+        <a href="https://github.com/MarcosACavalcanti" target="_blank" class="social-link">
+          <div>
+            <svg-icon icon="gitHub" [width]="30" [height]="30"></svg-icon>
+          </div>
+        </a>
+      </div>
     </div>
-    <hr class="tech-skill-divider" />
-    <div class="tech-skills-box-div">
-      <ul class="tech-skills-list">
-        <li class="tech-skills-div" *ngFor="let skill of techSkills">{{ skill }}</li>
+    <div class="description-box">
+      <div class="description-details">
+        {{ "about_page.descriptions.details" | translate }}
+      </div>
+      <hr class="tech-skill-divider" />
+      <div class="tech-skills-box-div">
+        <ul class="tech-skills-list">
+          <li class="tech-skills-div" *ngFor="let skill of techSkills">{{ skill }}</li>
+        </ul>
+      </div>
+      <hr class="tech-skill-divider" />
+      <ul class="experience-list">
+        <li class="experience-item" *ngFor="let exp of experiences">{{ exp }}</li>
       </ul>
     </div>
-    <hr class="tech-skill-divider" />
-    <ul class="experience-list">
-      <li class="experience-item" *ngFor="let exp of experiences">{{ exp }}</li>
-    </ul>
   </div>
 </div>

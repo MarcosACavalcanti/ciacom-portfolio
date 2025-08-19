@@ -3,9 +3,12 @@
   background-color: #202124;
   justify-content: space-between;
   border: solid 1px rgba(255, 255, 255, 0.3);
-  margin: 50px;
   padding: 10px;
   border-radius: 20px;
+  position: fixed;  
+  width: 80%;
+  z-index: 1;
+  margin-top: 20px;
 }
 
 .header-button {

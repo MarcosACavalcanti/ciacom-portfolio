@@ -14,6 +14,11 @@ export class PortfolioHeaderComponent {
   }
 
   goTo(page: String){
+    window.scroll({ 
+           top: 0, 
+           left: 0, 
+           behavior: 'smooth' 
+    });
     this._router.navigate([page])
   }
 
